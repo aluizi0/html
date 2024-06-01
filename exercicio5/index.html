@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Exercicio5(Formulário)</title>
+    </head>
+    <body>
+        <div>
+            <p>Navegue entre os arquivos das aulas.</p>
+            <a>
+              <a href="/">Piloto!</a> |
+              <a href="/formatacao/index.html">Formatação!</a> |
+              <a href="/comentarios/index.html">Comentários!</a> |
+              <a href="/imagens/index.html">Imagens!</a> |
+              <a href="/grecia/index.html">Artigo!</a> |
+              <a href="/links/index.html">Links!</a> |
+              <a href="/titulos/index.html">Títulos!</a> |
+              <a href="/div-e-span/index.html">Div e Span!</a> |
+              <a href="/br-e-hr/index.html">Quebra de Linha e Régua Horizontal!</a> |
+              <a href="/tabelas/index.html">Tabelas!</a> |
+              <a href="/formularios/index.html">Formulários!</a> |
+              <a href="/exercicio1/index.html">Exercício 1!</a> |
+              <a href="/exercicio2/index.html">Exercício 2!</a> |
+              <a href="/exercicio3/index.html">Exercício 3!</a> |
+              <a href="/exercicio4/index.html">Exercício 4!</a> |
+              <a href="/exercicio5/index.html">Exercício 5!
+            </a>
+        </div>
+        <h1>Formulário de Inscrição</h1>
+        <form> 
+            <!-- Campo de INput Nome -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required placeholder="Ex.: Aluizio">
+            <br><br>
+
+            <!-- Campo de Input Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <!-- Campo de Input Número de Celular -->
+            <label for="celular">Celular:</label><br>
+            <input type="tel" name="celular" id="celular" required>
+            <br><br>
+
+            <!-- Campo de Área de Atuação, input de radio com as opções: Desenvolvimento, Qualit Assurance(QA), Análise de Dados e Infraestrutura-->
+            <label for="area">Área de Atuação:</label><br>
+            <input type="radio" name="area" id="area" value="desenvolvimento">Desenvolvimento
+            <input type="radio" name="area" id="area" value="qa">Qualit Assurance(QA)
+            <input type="radio" name="area" id="area" value="analise">Análise de Dados e Infraestrutura
+            <br><br>
+
+            <!-- Observações que devem ser Textarea -->
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes" cols="30" rows="10" placeholder="Fale sobre você..."></textarea>
+            <br><br>
+
+            <!-- checkbox com o rótulo “Desejo receber novidades e ofertas por email.” -->
+            <label for="novidades">Desejo receber novidades e ofertas por email.</label><br>
+            <input type="checkbox" name="novidades" id="novidades" value="sim">
+            <br><br>
+
+            <!-- Botão de Enviar -->
+            <button type="submit">Enviar</button>
+
+        </form>
+    </body>
+</html>
