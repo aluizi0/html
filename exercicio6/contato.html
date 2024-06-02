@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Escritório de Contabilidade ABC</h1>
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="sobre.html">Sobre Nós</a> |
+            <a href="servicos.html">Serviços</a> |
+            <a href="contato.html">Contato</a> |
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para obter mais informações ou agendar uma reunião para discutir suas
+                necessidades contábeis. Nossa equipe está pronta para ajudá-lo.</p>
+
+            <h2>Informações de Contato:</h2>
+            <nav>
+                <ul>
+                    <li>Telefone: (11) 1234-5678</li>
+                    <li>Email: contato@escritorio.com</li>
+                    <li>Endereço: Rua do Escritório, 123 - Centro, São Paulo/SP</li>
+                </ul>
+            </nav>
+
+            <h2>Horário de Atendimento:</h2>
+            <p>Segunda a Sexta-feira, das 9h às 18h.</p>
+
+            <h2>Envie uma mensagem</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required aria-required="true" aria-label="Campo de Nome">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required aria-required="true"
+                        aria-label="Campo de Email">
+                    <br>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required aria-required="true"
+                        aria-label="Campo de Mensagem"></textarea>
+                </div>
+
+                <div role="status" aria-live="polite"></div>
+
+                <div role="status" aria-live="assertive"></div>
+
+                <button type="submit" aria-label="Enviar Formulário">Enviar</button>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>&copy; 2021 Escritório de Contabilidade ABC</p>
+    </footer>
+
+</html>
